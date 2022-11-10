@@ -25,6 +25,8 @@ while total_guesses < chances or total_guesses == chances and int(guess) == num:
         if has_cheats == "2 lov":
             num = np.random.randint(1,101)
         guess = input()
+        if guess == "quit"
+            quit()
         total_guesses += 1
         if int(guess) > num and total_guesses < chances:
             print("Your guess was too high")
